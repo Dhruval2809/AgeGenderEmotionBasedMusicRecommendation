@@ -18,7 +18,7 @@ model_age = load_model(os.path.join(os.path.dirname(__file__), 'static/age_model
 cap = cv2.VideoCapture(0)
 
 # Define the YouTube API key
-YOUTUBE_API_KEY = 'AIzaSyDqZNkAB9cUlJacTdl9viVy94__DIeMqIA'
+YOUTUBE_API_KEY = 'API KEY'
 
 def detect_emotion(frame):
     # Preprocess the image for emotion detection
